@@ -1,4 +1,3 @@
-
-SELECT *
-INTO Inn
-FROM Blacksmith
+CREATE TABLE Merchant AS
+   SELECT *
+   FROM HamenTheInnkeeper

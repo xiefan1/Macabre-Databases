@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<note xmlns="Macabre"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="Macabre saveScheme.xsd">
+
+<player>
+	<identification>
+		<name>Inspector</name>
+		<age>30</age>
+		<description>The inspector is an old person who shits a lot and eats a lot, now he shits little and eats little</description>
+	</identification>
+	<statistics>
+		<health>100</health>
+		<suspicion>20</suspicion>
+		<extra>
+			<deathcount>0</deathcount>
+			<timeelapsed>
+				<days>0</days>
+				<hours>0</hours>
+			</timeelapsed>
+			<doorsopened>0</doorsopened>
+			<timesinspected>0</timesinspected>
+		</extra>
+	</statistics>
+	<gamestats>
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<facingdirection>NE</facingdirection>
+		<state>standing</state>
+	</gamestats>
+</player>
+
+<character>
+	<identification>
+		<name>Merchant</name>
+		<age>52</age>
+		<description>The merchant is proud of what he does in life</description>
+		<description2>The merchant looks like he is not doing what he is actually doing</description2>
+		<description3>A glum sickness fills the air when the merchant is present</description3>
+	</identification>
+	<gamestats>
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<facingdirection>NE</facingdirection>
+		<state>standing</state>
+	</gamestats>
+</character>
+
+<character>
+	<identification>
+		<name>Madame Meatpies</name>
+		<age>65</age>
+		<description>The woman is very heppy with his life and sells the best pies ever</description>
+		<description2>Something that has to do with the pies makes the women selling it seem suspicious</description2>
+		<description3>The fullness with the pies seems strange compared with the emptiness of the woman</description3>
+	</identification>
+	<gamestats>
+		<position>
+			<x>10</x>
+			<y>20</y>
+		</position>
+		<facingdirection>NW</facingdirection>
+		<state>sitting</state>
+	</gamestats>
+</character>
